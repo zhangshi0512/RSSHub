@@ -10093,8 +10093,7 @@ export default {
       "/news": {
         "path": "/news",
         "categories": [
-          "programming",
-          "popular"
+          "programming"
         ],
         "example": "/anthropic/news",
         "parameters": {},
@@ -16385,8 +16384,7 @@ export default {
           "hyoban"
         ],
         "categories": [
-          "social-media",
-          "popular"
+          "social-media"
         ],
         "view": 3,
         "example": "/bilibili/ranking/all",
@@ -95155,7 +95153,8 @@ export default {
       "/pornstar/:username/:language?/:sort?": {
         "path": "/pornstar/:username/:language?/:sort?",
         "categories": [
-          "multimedia"
+          "multimedia",
+          "popular"
         ],
         "view": 3,
         "example": "/pornhub/pornstar/june-liu/www/mr",
